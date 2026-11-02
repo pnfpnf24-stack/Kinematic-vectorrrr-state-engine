@@ -34,5 +34,5 @@ When executed successfully, the system bypasses unverified transformations to re
 * Verifies out-of-bounds address protection layers.
 * Outputs precise floating-point tracking logs for X, Y, and Z vector state metrics.
 
-* ## Project intent & Engineering context
-* If you're are curious about the origins, this 3D physics framework functions as a foundational tracking sandbox built to explore elementary kinematic properties. This system's operation is specifically modeled to simulate high-velocity friction (relationships with other components, as partially developed or stated in VectorEngine.hpp where the absolute scalar speed is resolved from multi-axis components using the three-dimensional Euclidean norm (Vector3D::magnitude()). 
+## Project intent & Engineering context
+* If you are are curious about the origins, this 3D physics framework functions as a foundational tracking sandbox built to explore elementary kinematic properties. This system's operation is specifically modeled to simulate high-velocity friction (tracking relationships with other components, as partially developed or stated in VectorEngine.hpp where the absolute scalar speed is resolved from multi-axis components using the three-dimensional Euclidean norm '(Vector3D::magnitude()') drawing inspiration from the complex mechanics seen from the AC units in Armored Core 6.
